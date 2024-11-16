@@ -56,7 +56,7 @@ function App() {
    </button> */}
       {/* <ColorBG /> */}
       {/* <PasswordGenerator /> */}
-      {/* <CurrencyConverter /> */}
+      <CurrencyConverter />
       {/*    
    4. Context discussion project password and username lena dena
    <UserContextProvider>
@@ -67,6 +67,7 @@ function App() {
 
       {/* 5. theme switcher */}
 
+      {/* 
       <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
         <div className="flex flex-wrap min-h-screen items-center">
           <div className="w-full">
@@ -80,6 +81,7 @@ function App() {
           </div>
         </div>
       </ThemeProvider>
+      */}
 
     </>
   )
